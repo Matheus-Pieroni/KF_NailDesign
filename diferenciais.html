@@ -1,91 +1,146 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fotos</title>
-    <link rel="stylesheet" href="style.css">
+    <title>KF - Nail Design</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #fce4ec;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+
+        header {
+            background-color: #fff;
+            padding: 10px 0;
+            text-align: center;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        header nav {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 10px;
+        }
+
+        header nav a {
+            text-decoration: none;
+            color: #333;
+            margin: 0 15px;
+            padding: 10px 15px;
+            border-radius: 5px;
+        }
+
+        header nav a:hover {
+            background-color: #f8bbd0;
+        }
+
+        header nav .active {
+            background-color: #ffffff;
+        }
+
+        .blog-section {
+            padding: 40px;
+            text-align: center;
+        }
+
+        .blog-section h1 {
+            margin-bottom: 30px;
+            font-size: 36px;
+        }
+
+        .blog-posts {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+        }
+
+        .blog-post {
+            background-color: #f8bbd0;
+            border-radius: 20px;
+            padding: 20px;
+            width: 250px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .blog-post img {
+            border-radius: 50%;
+            width: 100px;
+            height: 100px;
+            object-fit: cover;
+            margin-bottom: 20px;
+        }
+
+        .blog-post h2 {
+            font-size: 22px;
+            margin-bottom: 10px;
+        }
+
+        .blog-post p {
+            font-size: 16px;
+            color: #555;
+        }
+
+        .more-posts {
+            display: flex;
+            justify-content: center;
+            margin-top: 30px;
+        }
+
+        .more-posts a {
+            text-decoration: none;
+            color: #333;
+            background-color: #f8bbd0;
+            padding: 10px 20px;
+            border-radius: 20px;
+            font-weight: bold;
+        }
+
+        .more-posts a:hover {
+            background-color: #f06292;
+            color: #fff;
+        }
+    </style>
 </head>
 <body>
-    <header>
-        <img class="logo" src="Letter flix! LOGO.png">
-        <nav>
-            <ul>
-                <li><a href="#">Principal</a></li>
-                <li><a href="#">Diferenciais</a></li>
-                <li><a href="#">Depoimento</a></li>
-                <li><a href="#">Blog</a></li>
-                <li><a href="#">Fale Conosco</a></li>
-            </ul>
-        </nav>
-    </header>
-    <div class="hero-image">
-        <div class="hero-text">
-            <h1 style="font-size:50px">LetterFlix <br> Sua nova plataforma de opinião</h1>
-            <br>
-            <br>
-            <p>Comente sobre seus filmes e séries favoritos</p>
-            <br>
-            <button>Saiba mais</button>
+
+<header>
+    <nav>
+       <div> <img src="imagens/logo.jpg" alt="Logo" style="height: 125px;"></div> <a href="index.html">Principal</a>
+        <a href="diferenciais.html">Diferenciais</a>
+        <a href="#">Depoimentos</a>
+        <a href="blog.html" class="active">Blog</a>
+        <a href="#">Fale Conosco</a>
+    </nav>
+</header>
+
+<section class="blog-section">
+    <h1>Diferenciais</h1>
+    <div class="blog-posts">
+        <div class="blog-post">
+            <img src="Imagens/Durabilidade.jpg" alt="Durabilidade">
+            <h2>Durabilidade</h2>
+            <p>As nossas unhas oferecem maior durabilidade de até 30 dias.</p>
+        </div>
+        <div class="blog-post">
+            <img src="imagens/Conforto.jpg" alt="Conforto">
+            <h2>Conforto</h2>
+            <p>O nosso espaço é mais confortável, pois contém sofás, poltrona de ótima qualidade e um agradável cantinho do café.</p>
+        </div>
+        <div class="blog-post">
+            <img src="Imagens/Seguro.jpg" alt="Seguro Do Cliente">
+            <h2>Seguro do cliente</h2>
+            <p>Se for um cliente e suas unhas forem danificadas durante um período de 10 dias, podem sem refeitas com um preço menor que o preço da manutenção.</p>
         </div>
     </div>
-    <div class="container"></div>
-        
+    <div class="more-posts">
+        <a href="#">Mais postagens</a>
     </div>
-    <div class="container">
-        <div class="box4">
-            <img src="brid.jpg" alt="">
-            <div class="text">
-                <h4> BRIDGERTON - 2020</h4>
-                <p>comente aqui</p>
-            </div>
-        </div>
-        <div class="box5">
-            <img src="ST.jpg" alt="">
-            <div class="text">
-                <h4>STRANGER THINGS - 2016</h4>
-                <p>comente aqui</p>
-            </div>
-        </div>
-        <div class="box6">
-            <img src="elite.jpg" alt="">
-            <div class="text">
-                <h4>ELITE - 2018</h4>
-                <p>comente aqui</p>
-            </div>
-        </div>
-    </div>
-    <div class="container"></div>
-        
-    </div>
-    <div class="container">
-        <div class="box4">
-            <img src="wand.webp" alt="">
-            <div class="text">
-                <h4>WANDINHA - 2022</h4>
-                <p>comente aqui</p>
-            </div>
-        </div>
-        <div class="box5">
-            <img src="R6.jpg" alt="">
-            <div class="text">
-                <h4>ROUND 6 - 2021</h4>
-                <p>comente aqui</p>
-            </div>
-        </div>
-        <div class="box6">
-            <img src="lcdp.jpg" alt="">
-            <div class="text">
-                <h4>LA CASA DE PAPEL - 2017</h4>
-                <p>comente aqui</p>
-            </div>
-        </div>
-    </div>
-    <br>
-    <br>
-    <br>
-    <footer>
-        <p>© LetterFlix 2024</p>
-    </footer>
+</section>
+
 </body>
 </html>
