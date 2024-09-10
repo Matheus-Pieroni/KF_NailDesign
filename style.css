@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #ffffff;
+    background-color: #fce4ec;
     margin: 0;
     padding: 0;
     color: #333;
@@ -36,12 +36,66 @@ header nav .active {
     background-color: #ffffff;
 }
 
+.blog-section {
+    padding: 40px;
+    text-align: center;
+}
 
-html {
-    height: 100%;
-    margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
-    background-image: #f8bbd0;
+.blog-section h1 {
+    margin-bottom: 30px;
+    font-size: 36px;
+}
+
+.blog-posts {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.blog-post {
+    background-color: #f8bbd0;
+    border-radius: 20px;
+    padding: 20px;
+    width: 250px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.blog-post img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+.blog-post h2 {
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.blog-post p {
+    font-size: 16px;
+    color: #555;
+}
+
+.more-posts {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.more-posts a {
+    text-decoration: none;
+    color: #333;
+    background-color: #f8bbd0;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+.more-posts a:hover {
+    background-color: #f06292;
+    color: #fff;
 }
 
 div {
@@ -49,7 +103,7 @@ div {
     height: 520px;
     padding: 50px;
     margin: 0px;
-    background-color: #ffc2ed;
+    background-color: #fce4ec;
     position: absolute;
     top: 65px;
   }
@@ -87,14 +141,15 @@ div .page_title1 {
     font-size: 20px;
     border: 200px;
     border-radius: 10px;
-    background-color: #fbc5ff;
     height: 50px;
     width: 250px;
     text-align: center;
+    outline: solid 5px rgb(251, 199, 199);
 }
 
 .botao :hover {
     outline: dotted;
+    color: #ff2cc0;
 }
 
 div .box1 {
@@ -131,7 +186,7 @@ header {
 
 nav ul{
     display: flex;
-    align-items: left; /* Alinha os itens do menu  */
+    align-items: center; /* Alinha os itens do menu  */
     justify-content: center; /* Centraliza os itens horizontalmente */
     list-style: none; /* Remove marcadores padrão */
     gap: 30px; /* Ajuste o espaçamento entre os itens do menu */
@@ -172,6 +227,6 @@ nav ul li a:hover {
     width: 15%;
     border-radius: 20px;
     outline: solid 10px white;
-    top: 100px;
+    top: 150px;
     left: 900px;
 }
