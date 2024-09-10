@@ -8,7 +8,7 @@ body {
 
 header {
     background-color: #fff;
-    padding: 10px;
+    padding: 20px;
     text-align: center;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
@@ -21,6 +21,10 @@ header nav {
 }
 
 header nav a {
+    
+    position: relative;
+    left: 400px;
+    top: -20px;
     text-decoration: none;
     color: #333;
     margin: 15px;
@@ -109,25 +113,27 @@ div {
   }
 
 div .page_title {
-    font-size: 50px;
+    font-size: 60px;
     text-align: center;
     color: #ff2cc0;
     position: absolute;
-    top: 200px;
-    left: 350px;
+    top: 180px;
+    left: 230px;
     margin: 0px;
     font-family: "Dancing Script";
+    font-style: italic;
 }
 
 div .page_title1 {
-    font-size: 50px;
+    font-size: 60px;
     text-align: center;
     color: #ff2cc0;
     position: absolute;
-    top: 250px;
-    left: 360px;
+    top: 230px;
+    left: 240px;
     margin: 0px;
     font-family: "Dancing Script";
+    font-style: italic;
 }
  .botao {
     position: absolute;
@@ -180,6 +186,9 @@ header {
 
 .logo {
     height: 80px;
+    position: absolute;
+    top: -10px;
+    left: 10px;
 }
 
 nav ul{
@@ -205,6 +214,17 @@ nav ul li a:hover {
     background-color:#f8bbd0;
     padding: 4px;
     border-radius: 4px;
+}
+
+.CalloutPhrase {
+    font-size: 40px;
+    font-family: 'Dancing Script';
+    font-style: italic;
+    color: rgb(255, 108, 226, 0.9);
+    position: relative;
+    top: 170px;
+    left: 20px;
+    background-color: #33333300;
 }
 
 .img_1 {
