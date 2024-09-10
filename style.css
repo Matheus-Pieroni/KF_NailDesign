@@ -131,7 +131,7 @@ header {
 
 nav ul{
     display: flex;
-    align-items: center; /* Alinha os itens do menu  */
+    align-items: left; /* Alinha os itens do menu  */
     justify-content: center; /* Centraliza os itens horizontalmente */
     list-style: none; /* Remove marcadores padrão */
     gap: 30px; /* Ajuste o espaçamento entre os itens do menu */
@@ -152,4 +152,26 @@ nav ul li a:hover {
     background-color:#f8bbd0;
     padding: 4px;
     border-radius: 4px;
+}
+
+.img_1 {
+    position: absolute;
+    margin: 20px white;
+    border: 10px white;
+    width: 15%;
+    border-radius: 20px;
+    outline: solid 10px white;
+    top: 50px;
+    left: 700px;
+}
+
+.img_2 {
+    position: absolute;
+    margin: 20px white;
+    border: 10px white;
+    width: 15%;
+    border-radius: 20px;
+    outline: solid 10px white;
+    top: 100px;
+    left: 900px;
 }
