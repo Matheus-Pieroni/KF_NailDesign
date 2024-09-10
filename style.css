@@ -8,7 +8,7 @@ body {
 
 header {
     background-color: #fff;
-    padding: 10px 0;
+    padding: 10px;
     text-align: center;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
@@ -23,7 +23,7 @@ header nav {
 header nav a {
     text-decoration: none;
     color: #333;
-    margin: 0 15px;
+    margin: 15px;
     padding: 10px 15px;
     border-radius: 5px;
 }
@@ -166,6 +166,7 @@ div .box1 {
     padding: 0;
     box-sizing: border-box;
     font-family: "arial";
+    z-index: 2;
 }
 
 header {
@@ -178,10 +179,7 @@ header {
 }
 
 .logo {
-    height: 60px;
-    font-size: 5px;
-    color: rgb(0, 0, 0);
-    margin-right: 350px; /* Espaço entre o logo e o menu */
+    height: 80px;
 }
 
 nav ul{
