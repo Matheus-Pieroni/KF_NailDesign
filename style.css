@@ -4,42 +4,35 @@ body {
     margin: 0;
     padding: 0;
     color: #333;
+    overflow-x:hidden;
 }
 
 header {
     background-color: #fff;
-    padding: 20px;
-    text-align: center;
+    padding: 10px 0;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 header nav {
+    display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 10px;
 }
 
 header nav a {
-    
-    position: relative;
-    left: 400px;
-    top: -20px;
     text-decoration: none;
     color: #333;
-    margin: 15px;
+    margin: 0 15px;
     padding: 10px 15px;
     border-radius: 5px;
     font-style: oblique;
-    font-size: 15px;
+    font-size: 20px;
 }
 
 header nav a:hover {
     background-color: #f8bbd0;
-    transform: scale(1.1);
-}
-
-header nav .active {
-    background-color: #ffffff;
+    transform: scale(1.2);
 }
 
 .blog-section {
@@ -104,16 +97,6 @@ header nav .active {
     color: #fff;
 }
 
-div {
-    width: 100%;
-    height: 520px;
-    padding: 50px;
-    margin: 0px;
-    background-color: #fce4ec;
-    position: absolute;
-    top: 65px;
-  }
-
 @keyframes new1 {
     from {left: -200px; color: #ff2cc005;}
     to {left: 235px; color: #ff2cc0;}
@@ -124,7 +107,7 @@ div .page_title {
     text-align: center;
     color: #ff2cc0;
     position: absolute;
-    top: 180px;
+    top: 250px;
     left: 230px;
     margin: 0px;
     font-family: "Dancing Script";
@@ -139,7 +122,7 @@ div .page_title1 {
     text-align: center;
     color: #ff2cc0;
     position: absolute;
-    top: 230px;
+    top: 300px;
     left: 240px;
     margin: 0px;
     font-family: "Dancing Script";
@@ -149,10 +132,9 @@ div .page_title1 {
     animation-iteration-count: 1;
 }
  .botao {
-    position: absolute;
-    top: 600px;
-    left: 1150px;
-    margin: 30px;
+    position: relative;
+    top: 500px;
+    left: 1000px;
     border: 30px;
     outline: none;
     text-decoration: none;
@@ -187,15 +169,6 @@ div .box1 {
     box-sizing: border-box;
     font-family: "arial";
     z-index: 2;
-}
-
-header {
-    /* barra de navegação*/
-    background-color: rgb(255, 255, 255);
-    height: 60px;
-    display: flex;
-    align-items: center; /* Alinha os items verticalmente no centro */ 
-    padding: 20px;
 }
 
 .logo {
@@ -248,8 +221,8 @@ nav ul li a:hover {
     width: 15%;
     border-radius: 20px;
     outline: solid 10px white;
-    top: 50px;
-    left: 700px;
+    top: 200px;
+    left: 800px;
 }
 
 .img_2 {
@@ -259,6 +232,6 @@ nav ul li a:hover {
     width: 15%;
     border-radius: 20px;
     outline: solid 10px white;
-    top: 150px;
-    left: 900px;
+    top: 350px;
+    left: 1000px;
 }
