@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog - Exemplo</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #fce4ec;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+
+        header {
+            background-color: #fff;
+            padding: 10px 0;
+            text-align: center;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        header nav {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 10px;
+        }
+
+        header nav a {
+            text-decoration: none;
+            color: #333;
+            margin: 0 15px;
+            padding: 10px 15px;
+            border-radius: 5px;
+        }
+
+        header nav a:hover {
+            background-color: #f8bbd0;
+        }
+
+        header nav .active {
+            background-color: #ffffff;
+        }
+
+        .blog-section {
+            padding: 40px;
+            text-align: center;
+        }
+
+        .blog-section h1 {
+            margin-bottom: 30px;
+            font-size: 36px;
+        }
+
+        .blog-posts {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+        }
+
+        .blog-post {
+            background-color: #f8bbd0;
+            border-radius: 20px;
+            padding: 20px;
+            width: 250px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .blog-post img {
+            border-radius: 50%;
+            width: 100px;
+            height: 100px;
+            object-fit: cover;
+            margin-bottom: 20px;
+        }
+
+        .blog-post h2 {
+            font-size: 22px;
+            margin-bottom: 10px;
+        }
+
+        .blog-post p {
+            font-size: 16px;
+            color: #555;
+        }
+
+        .more-posts {
+            display: flex;
+            justify-content: center;
+            margin-top: 30px;
+        }
+
+        .more-posts a {
+            text-decoration: none;
+            color: #333;
+            background-color: #f8bbd0;
+            padding: 10px 20px;
+            border-radius: 20px;
+            font-weight: bold;
+        }
+
+        .more-posts a:hover {
+            background-color: #f06292;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <nav>
+       <div> <img src="logo.jpg" alt="Logo" style="height: 125px;"></div> <a href="index.html">Principal</a>
+        <a href="#">Diferenciais</a>
+        <a href="#">Depoimentos</a>
+        <a href="blog.html" class="active">Blog</a>
+        <a href="#">Fale Conosco</a>
+    </nav>
+</header>
+
+<section class="blog-section">
+    <h1>Blog</h1>
+    <div class="blog-posts">
+        <div class="blog-post">
+            <img src="banho de gel.jpg" alt="Banho de Gel">
+            <h2>Banho de Gel</h2>
+            <p>No dia 03-08 fizemos uma linda unha no banho de gel.</p>
+        </div>
+        <div class="blog-post">
+            <img src="fibra.jpg" alt="Fibra de Vidro">
+            <h2>Fibra de Vidro</h2>
+            <p>No dia 04-08 fizemos uma fibra de vidro perfeita para seu dia a dia.</p>
+        </div>
+        <div class="blog-post">
+            <img src="tips.jpg" alt="Gel na Tips">
+            <h2>Gel na Tips</h2>
+            <p>No dia 05-08 fizemos um gel na tips com um branquinho nada básico.</p>
+        </div>
+    </div>
+    <div class="more-posts">
+        <a href="#">Mais postagens</a>
+    </div>
+</section>
+
+</body>
+</html>
