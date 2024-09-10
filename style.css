@@ -14,7 +14,6 @@ header {
 }
 
 header nav {
-    display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 10px;
@@ -117,7 +116,7 @@ div {
 
 @keyframes new1 {
     from {left: -200px; color: #ff2cc005;}
-    to {left: 260px; color: #ff2cc0;}
+    to {left: 235px; color: #ff2cc0;}
 }
 
 div .page_title {
@@ -157,14 +156,15 @@ div .page_title1 {
     border: 30px;
     outline: none;
     text-decoration: none;
-    font-weight: 400px;
     font-size: 20px;
     border: 200px;
     border-radius: 10px;
     height: 50px;
     width: 250px;
     text-align: center;
-    outline: solid 5px rgb(251, 199, 199);
+    outline: solid 5px rgb(247, 106, 235);
+    background-color: #ffffff;
+    font-style: oblique;
 }
 
 .botao :hover {
