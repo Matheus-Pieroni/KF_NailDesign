@@ -30,10 +30,13 @@ header nav a {
     margin: 15px;
     padding: 10px 15px;
     border-radius: 5px;
+    font-style: oblique;
+    font-size: 15px;
 }
 
 header nav a:hover {
     background-color: #f8bbd0;
+    transform: scale(1.1);
 }
 
 header nav .active {
@@ -112,6 +115,11 @@ div {
     top: 65px;
   }
 
+@keyframes new1 {
+    from {left: -200px; color: #ff2cc005;}
+    to {left: 260px; color: #ff2cc0;}
+}
+
 div .page_title {
     font-size: 60px;
     text-align: center;
@@ -122,6 +130,9 @@ div .page_title {
     margin: 0px;
     font-family: "Dancing Script";
     font-style: italic;
+    animation-name: new1;
+    animation-duration: 5s;
+    animation-iteration-count: 1;
 }
 
 div .page_title1 {
@@ -134,6 +145,9 @@ div .page_title1 {
     margin: 0px;
     font-family: "Dancing Script";
     font-style: italic;
+    animation-name: new1;
+    animation-duration: 5s;
+    animation-iteration-count: 1;
 }
  .botao {
     position: absolute;
